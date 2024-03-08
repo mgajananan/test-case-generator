@@ -1,0 +1,19 @@
+{
+  "name": "test-case-generator",
+  "version": "1.0.0",
+  "description": "Auto generate unit test using openai",
+  "main": "index.js",
+  "scripts": {
+    "writeTest": "node src/generateTests.js",
+    "test": "mocha src/unitTests/unitTestSuite.js"
+  },
+  "author": "MathangiGajananan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mocha": "^10.3.0",
+    "openai": "^4.28.0",
+    "ora": "^8.0.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
